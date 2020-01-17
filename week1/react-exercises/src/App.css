@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.guarantee {
+  display: flex;
+  justify-content: space-evenly;
+
+  background-color: #fff;
+  width: 100%;
+}
+
+img {
+  height: 75px;
+}
+
+.inner-guarantee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%
+}

@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
+//Components
 import HobbyList from './components/exercise-1/HobbyList';
 import Guarantee from './components/exercise-2/Guarantee';
+import Counter from './components/exercise-3/Counter';
+//Images
 import coin from './components/pics/coin.png';
 import chat from './components/pics/chat.png';
 import delivery from './components/pics/f-delivery.png';
@@ -33,6 +36,7 @@ function App() {
         />
       </div>
       <br />
+      <Counter />
     </div>
   );
 }

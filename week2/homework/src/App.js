@@ -8,8 +8,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* <Friend /> */}
-      {/* <DogGallery /> */}
+      {<Friend />}
+      {<DogGallery />}
       {<RandomJoke />}
     </div>
   );
